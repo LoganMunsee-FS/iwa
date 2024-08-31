@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "MedievalSharp", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  background-color: #002d54;
+  color: whitesmoke;
+}
+/* center all content */
+
+#wrapper {
+  width: 95%;
+  margin: auto;
+  border: 3px solid whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #005eb8;
+}
+/* Makes the header center in columns */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Gives the nav bar more width  */
+nav {
+  width: 100%;
+}
+/* Space out the nav links and adds some style  */
+ul {
+  display: flex;
+  width: 80%;
+  padding: 0.6rem;
+  margin: 1rem auto;
+  justify-content: space-around;
+  flex-flow: wrap row;
+  border: 2px solid #923e2f;
+  /* gap: 1.2rem; */
+}
+/* Adds space between links when screen gets small instead of using gap */
+li {
+  padding: 0.3rem 1.2rem;
+}
+
+/* main heading */
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px #923e2f;
+  box-shadow: 3px 3px 3px whitesmoke;
+  color: white;
+  width: 95%;
+  border: 2px solid #923e2f;
+  padding: 0rem;
+  border-radius: 0.9rem;
+  margin: 0;
+}
+/* all other headings */
+h2 {
+  text-align: center;
+}
+/* nav styling  */
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+#source:visited,
+a:visited {
+  color: whitesmoke;
+}
+/* hover styling for nav and footer */
+#source:hover,
+a:hover {
+  color: #aef8ae;
+  text-decoration: underline;
+}
+/* center img  */
+img {
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+
+/* styling the source */
+#foot {
+  text-align: center;
+}
+
+#source {
+  font-size: 1.75rem;
+  text-decoration: underline;
+  color: crimson;
+}
