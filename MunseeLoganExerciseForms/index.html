@@ -28,6 +28,7 @@
             <li><a href="#prehistory">Pre-history of the Castle Rock</a></li>
             <li><a href="#early">Early Middle Ages</a></li>
             <li><a href="#high">High Middle Ages</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <!-- Main heading -->
@@ -161,8 +162,33 @@
           </p>
         </section>
       </main>
-      <!-- footer with link to source content  -->
+      <!-- footer with link to source content and form  -->
       <footer>
+        <h3 id="contact">contact us:</h3>
+        <form>
+          <div>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" required />
+          </div>
+          <div>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10" required></textarea>
+          </div>
+          <div id="check">
+            <input type="checkbox" id="signup" />
+            <label for="signup">Sign up for emails</label>
+          </div>
+          <button>Send</button>
+        </form>
+
         <p id="foot">
           <a
             id="source"
@@ -174,5 +200,6 @@
       </footer>
       <!-- Fun fact that was not on Wikipedia the first dipiction of the U.S Flag overseas can be seen carved into a prison door at the Edinburgh Castle -->
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
